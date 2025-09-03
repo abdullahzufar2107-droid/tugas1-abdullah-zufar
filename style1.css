@@ -1,0 +1,16 @@
+html, body { height: 100%; margin: 0; }
+body {
+    background: rgb(31, 30, 32);
+}
+th {
+    background-color: rgb(99, 99, 99);
+}
+.lirik {
+    background-color: rgb(222, 218, 215);
+}
+.sidebar {
+    background-color: rgb(157, 156, 156);
+}
+.konten {
+    background-color: rgb(157, 156, 156);
+}
