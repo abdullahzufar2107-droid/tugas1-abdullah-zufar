@@ -55,6 +55,7 @@ select {
 }
 
 textarea {
+    font-family: Arial, sans-serif;
     height: 70px;
 }
 
@@ -91,18 +92,17 @@ font-weight: bold;
 .btn-submit :hover {
     background: #2980b9;
 }
-
-
 </style>
+
 <body>
-    <form action="#">
-    <fieldset>
-        <legend align="center"><h3>Buat Akun</h3></legend>
+<form action="#">
+<fieldset>
+    <legend align="center"><h3>Formulir Peminatan Musik</h3></legend>
         <h2>Login</h2>
         <table>
             <tr>
-            <td><label for="nama">Nama Lengkap :</label></td>
-            <td><input type="text" name="nama" id="nama" placeholder=""></td>
+            <td><label for="username">Username :</label></td>
+            <td><input type="text" name="username" id="username"></td>
             </tr>
 
             <tr>
@@ -114,19 +114,20 @@ font-weight: bold;
             <td><label for="konfirmasi password">Konfirmasi Password :</label></td>
             <td><input type="password" name="konfirmasi password" id="konfirmasi password"></td>
             </tr>
-        <table>
+        
+        </table>
         <br><br>
         <h2>Tentang Anda</h2>
         <br>
         <table>
             <tr>
-            <td><label for="username">Username :</label></td>
-            <td><input type="text" name="username" id="username"></td>
+            <td><label for="nama">Nama Lengkap :</label></td>
+            <td><input type="text" name="nama" id="nama" placeholder="Isi Nama Lengkap Anda"></td>
             </tr>
 
             <tr>
-            <td><label for="pendapat">Pendapat Anda :</label></td>
-            <td><textarea name="pendapat" id="pendapat" rows="4" cols="25" placeholder="Tuliskan Pendapat Anda"></textarea></td>
+            <td><label for="alasan">Alasan Anda Menyukai Musik :</label></td>
+            <td><textarea name="alasan" id="alasan" rows="4" cols="25" placeholder="Tuliskan Alasan Anda Jika Ada"></textarea></td>
             </tr>
 
             <tr>
@@ -168,7 +169,5 @@ font-weight: bold;
     </tr>
     </table>
     </form>
-
-    
 </body>
 </html>
