@@ -5,7 +5,7 @@ body {
 th {
     background-color: rgb(99, 99, 99);
 }
-.lirik {
+.menu {
     background-color: rgb(222, 218, 215);
 }
 .sidebar {
@@ -13,4 +13,5 @@ th {
 }
 .konten {
     background-color: rgb(157, 156, 156);
+
 }
